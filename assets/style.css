@@ -11,25 +11,25 @@ body {
   text-align: center;
   position: relative;
 
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: pointer;
   right: 50%;
   left: 50%;
-  transform: 50%, 50%;
-  cursor: pointer;
+  margin-top: 20px;
 }
 .container {
   margin-right: 25%;
 }
 .number {
-  width: 40px;
+  width: 30px;
   display: inline-block;
   text-align: center;
   margin: 5px;
   padding: 10px;
   border: 1px solid #ddd;
-  cursor: pointer;
+  border-radius: 50%;
 }
+
 .color {
   background-color: yellow;
 }
