@@ -1,6 +1,6 @@
 const createNumbers = (number) => {
   const numbers = document.getElementById("tabNumber");
-  for (let i = 0; i < 76; i++) {
+  for (let i = 0; i < 90; i++) {
     const divNumber = document.createElement("div");
     divNumber.className = "number";
 
@@ -10,7 +10,7 @@ const createNumbers = (number) => {
     numbers.appendChild(divNumber);
   }
   const generateRandomNumber = () => {
-    const randomIndex = Math.floor(Math.random() * 76) + 1;
+    const randomIndex = Math.floor(Math.random() * 90) + 1;
     const everySingleNumber = document.querySelectorAll(".number");
 
     const colorDiv = everySingleNumber[randomIndex];
