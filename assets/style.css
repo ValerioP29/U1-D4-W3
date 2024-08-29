@@ -1,0 +1,35 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: brown;
+}
+
+#cellNumber {
+  font-size: 2rem;
+  text-align: center;
+}
+#getANumber {
+  text-align: center;
+  position: relative;
+
+  font-size: 3rem;
+  cursor: pointer;
+  right: 50%;
+  left: 50%;
+  transform: 50%, 50%;
+  cursor: pointer;
+}
+.container {
+  margin-right: 25%;
+}
+.number {
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.color {
+  background-color: yellow;
+}
